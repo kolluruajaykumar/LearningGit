@@ -13,9 +13,9 @@ public class Continue {
 		        for (int i = 0; i < max; i++) {
 
 		            if (str.charAt(i) != 'w')
-		                
-		            	continue;
-		                
+		            { 
+		            	continue; //it will skip the rest statement 
+		            }
 		            
 		            count++;
 		        }

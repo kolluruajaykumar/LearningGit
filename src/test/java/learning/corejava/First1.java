@@ -11,7 +11,7 @@ public class First1 {
 		if(s.hasNextInt())
 		{
 			int a=s.nextInt();
-			System.out.println("entered value is"+a);
+			System.out.println("entered value is  "+a);
 		}
 		else {
 			

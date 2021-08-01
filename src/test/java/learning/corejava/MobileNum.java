@@ -11,10 +11,13 @@ public class MobileNum {
 		System.out.println("enter your mobile number");
 		
 		System.out.println(s.hasNext("[0-9]{10}"));
+		if(s.hasNext("[0-9]{10}"))
+		{
+			break;
+		}
 
 		continue;
-		// TODO Auto-generated method stub
-
+		
 		}
 	}
 }
